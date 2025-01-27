@@ -73,8 +73,9 @@ async (conn, mek, m, { from, reply, q, text, isCreator, fromMe }) => {
 
 cmd({
     pattern: "vv",
-    alias: ['retrive', '🔥'],
-    desc: "Fetch and resend a ViewOnce message content (image/video).",
+    react : "🦠",
+    alias: ['retrive', "viewonce"],
+    desc: "Fetch and resend a ViewOnce message content (image/video/voice).",
     category: "misc",
     use: '<query>',
     filename: __filename
@@ -118,7 +119,7 @@ async (conn, mek, m, { from, reply }) => {
             let anu = await conn.downloadAndSaveMediaMessage(m.quoted.message.audioMessage);
             return conn.sendMessage(from, { audio: { url: anu } }, { quoted: mek });
         } else {
-            return reply("This is not a ViewOnce message.");
+            return reply("> *This is not a ViewOnce message.*");
         }
     } catch (e) {
         console.log("Error:", e);
@@ -126,4 +127,3 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-// if you want use the codes give me credit on your channel and repo in this file and my all files 
