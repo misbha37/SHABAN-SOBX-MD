@@ -112,8 +112,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there SHABAN-SOBX-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet SHABAN-SOBX-MD WhatsApp Bot.\n\n *Thanks for using SHABAN-SOBX-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/MRSHABAN40/SHABAN-SOBX-MD\n\n> © Powered BY Mr Shaban \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg` }, caption: up })
+  let up = `*Hello there SHABAN-SOBX-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet SHABAN-SOBX-MD WhatsApp Bot.\n\n *Thanks for using SHABAN-SOBX-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/MRSHABAN40/SHABAN-SOBX-MD\n\n> © Powered BY MR-SHABAN \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/wdN7fsy/shaban-sobx-md.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -148,9 +148,9 @@ const port = process.env.PORT || 9090;
     if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_SEEN === "true"){
       await conn.readMessages([mek.key])
     }
-  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_SEEN === "true"){
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
     const jawadlike = await conn.decodeJid(conn.user.id);
-    const emojis = ['❤️', '💝', '😇', '💖', '💓', '💞', '🔥', '💕', '💎', '💗', '🤍', '🖤', '❣️', '❤️‍🔥', '❤️‍🩹', '🩷', '🥰', '🧡', '😎', '🤎', '✅', '💙', '🧡', '🩶', '🤍', '👌', '✌️', '👍', '💫', '🌟', '😻', '🇵🇰', '💜', '💙', '🌝', '🖤', '💚'];
+    const emojis = ['🤔', '🤩', '😘', '👍', '🦋', '🥰', '🥳', '😊', '🫡', '🤫', '🤗', '🫣', '😇', '😎', '❤️', '🧡', '💛', '💚', '🩵', '💙', '💜', '🤎', '🖤', '🩶', '🤍', '🩷', '💝', '💖', '💗', '💓', '💞', '💕', '❤️‍🩹', '❣️', '💔', '❤️‍🔥', '🦚'];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     await conn.sendMessage(mek.key.remoteJid, {
       react: {
@@ -768,7 +768,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("SHABAN SOBX MD STARTED ✅");
+  res.send("SHABAN MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

@@ -1,8 +1,8 @@
 {
   "name": "SHABAN-SOBX-MD",
-  "description": "Javascript WhatsApp bot made by Mʀ Sʜᴀʙᴀɴ",
+  "description": "Jᴀᴠᴀsᴄʀɪᴘᴛ Wʜᴀᴛsᴀᴘᴘ Bᴏᴛ Mᴀᴅᴇ Bʏ Mʀ Sʜᴀʙᴀɴ",
   "logo": "https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg",
-  "keywords": ["Mʀ-Sʜᴀʙᴀɴ"],
+  "keywords": ["Mʀ✰Sʜᴀʙᴀɴ"],
   "success_url": "/",
 
     "stack": "container",
@@ -54,7 +54,7 @@
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
       "required": false,
-      "value": "true"
+      "value": "false"
     }, 
 
 
@@ -73,20 +73,20 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY SHABAN-SOBX-MD*"
+      "value": "✦sʜᴀʙᴀɴ-sᴏʙx-ᴍᴅ✦"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Mʀ Sʜᴀʙᴀɴ"
+      "value": "Mʀ✰Sʜᴀʙᴀɴ"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "92310344XXXX"
+      "value": "923059395959"
 
     }, 
 
@@ -110,10 +110,56 @@
       "value": "true"
     }, 
 
+ "AUTO_STATUS_REPLY": {
+      "description": "Make it true for auto reply msg on status seen.",
+      "required": true,
+      "value": "false"
+    }, 
+
+    "AUTO_STATUS_MSG": {
+      "description": "Type custom message on status reply",
+      "required": true,
+      "value": "✦sʜᴀʙᴀɴ-sᴏʙx-ᴍᴅ✦"
+   
+     }, 
+    
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "Mʀ✰Sʜᴀʙᴀɴ"
+}, 
+
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "923059395959"
+
+    }, 
+
+    "BOT_NAME": {
+      "description": "Type here the bot name.",
+      "required": false,
+      "value": "SHABAN-SOBX-MD"
+
+      }, 
+
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+      
+    },
+    
+    "AUTO_STATUS_REACT": {
+      "description": "status auto like or react make it true or false.",
+      "required": false,
+      "value": "true"
+    }, 
+    
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mʀ Sʜᴀʙᴀɴ*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sʜᴀʙᴀɴ*"
     },
 
       "DELETE_LINKS": {
@@ -156,7 +202,7 @@
     "ANTI_DEL_PATH": {
       "description": "change it to -same- if you want to resend deleted message in same chat",
       "required": false,
-      "value": "log"
+      "value": "main"
     }, 
 
     "READ_MESSAGE": {
