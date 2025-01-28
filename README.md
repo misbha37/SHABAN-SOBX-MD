@@ -43,10 +43,6 @@ href="https://github.com/MRSHABAN40/SHABAN-SOBX-MD/graphs/commit-activity"><img 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗦𝗘𝗦𝗦𝗜𝗢𝗡+𝗜𝗗+𝗦𝗜𝗧𝗘+𝗜𝗦+𝗛𝗘𝗥𝗘)](https://git.io/typing-svg)
 
 [![Get Session ID 1 Here](https://img.shields.io/static/v1?label=Session%20ID1&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=white)](https://megapair.onrender.com/)
-
-[![Get Session ID 2 Here](https://img.shields.io/static/v1?label=Session%20ID2&message=Generate&color=FF350&style=for-the-badge&logo=firefox&logoColor=white)](https://shaban-pair.onrender.com/)
-
-[![Get Session ID 3 Here](https://img.shields.io/static/v1?label=Session%20ID3&message=Generate&color=C71585&style=for-the-badge&logo=firefox&logoColor=white)](https://shaban-sobx-md-yih8.onrender.com/)
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗗𝗘𝗣𝗟𝗢𝗬+𝗢𝗡+𝗛𝗘𝗥𝗢𝗞𝗨)](https://git.io/typing-svg)
  [![Deploy to Heroku](https://img.shields.io/static/v1?label=Deploy%20to&message=Heroku&color=430098&style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/MRSHABAN40/SHABAN-SOBX-MD)
 
